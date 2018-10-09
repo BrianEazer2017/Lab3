@@ -26,6 +26,9 @@ public class Lab3DescribeNumber {
 				input(name);
 			}
 		}
+		else {
+			printer("Oops, " + name + ". You have to enter an integer between 1 and 100. Try again.");
+		}
 		
 	}
 
@@ -61,7 +64,7 @@ public class Lab3DescribeNumber {
 				printer("Alright, it's been real " + name + ".");
 			}
 		else {
-			printer("ur smart. Here's some money. Go buy yourself a jetski, get a good night's sleep. Try again");
+			printer("Here's some money. Go buy yourself a jetski, get a good night's sleep. Try again");
 			repeat(name);
 		}
 	}
